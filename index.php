@@ -1,15 +1,15 @@
 <?php
 include_once "inc/header.php"
 ?>
-<!-- <link rel="preload" href="css/danh_muc.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'> -->
+<link rel="preload" href="css/trang-chu.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
 <noscript>
-    <!-- <link rel="stylesheet" href="css/danh_muc.min.css"> -->
+    <link rel="stylesheet" href="css/trang-chu.min.css">
 </noscript>
 
 </head>
 <body>
 
-<header>
+<header class="header__pc" >
     header
 </header>
 

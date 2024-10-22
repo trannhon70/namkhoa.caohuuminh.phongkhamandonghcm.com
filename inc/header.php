@@ -2,8 +2,8 @@
 header("Timing-Allow-Origin: *");
 header("Cache-Control: public, max-age=31536000, must-revalidate");
 
-    $local ='http://localhost/benhxahoi.andongclinic.vn'
-    // $local ='https://benhxahoi.andongclinic.vn'
+    $local ='http://localhost/namkhoa.caohuuminh.phongkhamandonghcm.com'
+    // $local ='https://namkhoa.caohuuminh.phongkhamandonghcm.com'
 ?>
 <!DOCTYPE html>
 <html ⚡ lang="en">
@@ -15,7 +15,7 @@ header("Cache-Control: public, max-age=31536000, must-revalidate");
         content="Phòng khám đa khoa chuyên điều trị bệnh nam khoa, bệnh xã hội, da liễu, hậu môn - trực tràng uy tính tại thành phố Hồ Chí Minh">
     <title>Phòng khám đa khoa</title>
 
-    <script defer src="<?php $local ?>/js/cdn_image.min.js"></script>
+    <script defer src="<?php echo $local ?>/js/cdn_image.min.js"></script>
     <script defer src="https://cdn.ampproject.org/v0.js"></script>
     <script custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js" defer></script>
     <style amp-boilerplate>
@@ -55,9 +55,9 @@ header("Cache-Control: public, max-age=31536000, must-revalidate");
     </noscript>
 
     <link rel="icon" href="<?php echo $local ?>/images/icons/icon_logo.webp" type="image/x-icon">
-    <link rel="preload" href="css/index.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
+    <link rel="preload" href="css/index.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
 
     <noscript>
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/index.min.css">
 
     </noscript>

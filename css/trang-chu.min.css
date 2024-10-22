@@ -1,0 +1,5 @@
+
+.header__pc{
+    width: var(--container);
+    margin: var(--margin-auto);
+}
