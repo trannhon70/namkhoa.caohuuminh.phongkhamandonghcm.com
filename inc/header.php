@@ -1,4 +1,5 @@
 <?php
+ob_start("ob_gzhandler");
 header("Timing-Allow-Origin: *");
 header("Cache-Control: public, max-age=31536000, must-revalidate");
 
