@@ -49,3 +49,9 @@
     --position-absolute: absolute;
     --position-relative: relative;
 }
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('myfont.woff2') format('woff2');
+    font-display: swap; /* Tải phông chữ nhanh */
+}

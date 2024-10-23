@@ -47,9 +47,10 @@ header("Cache-Control: public, max-age=31536000, must-revalidate");
             width: 100%;
             height: auto;
             font-size: 1rem;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'MyFont', sans-serif;
             overflow-x: hidden !important;
             max-width: var(--max-width);
+            box-sizing: border-box;
         }
         </style>
     </noscript>
