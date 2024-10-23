@@ -10,14 +10,14 @@ header("Cache-Control: public, max-age=31536000, must-revalidate");
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <meta name="description"
         content="Phòng khám đa khoa chuyên điều trị bệnh nam khoa, bệnh xã hội, da liễu, hậu môn - trực tràng uy tính tại thành phố Hồ Chí Minh">
     <title>Phòng khám đa khoa</title>
 
     <script defer src="<?php echo $local ?>/js/cdn_image.min.js"></script>
-    <script defer src="https://cdn.ampproject.org/v0.js"></script>
-    <script custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js" defer></script>
+   
     <style amp-boilerplate>
     body {
         -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -57,8 +57,10 @@ header("Cache-Control: public, max-age=31536000, must-revalidate");
 
     <link rel="icon" href="<?php echo $local ?>/images/icons/icon_logo.webp" type="image/x-icon">
     <link rel="preload" href="css/index.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
+    <link rel="preload" href="css/@media.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
 
     <noscript>
         <link rel="stylesheet" href="css/index.min.css">
+        <link rel="stylesheet" href="css/@media.min.css">
 
     </noscript>

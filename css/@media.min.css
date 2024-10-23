@@ -1,0 +1,73 @@
+@media only screen and (max-width: 600px) {
+    .header,
+    .expert,
+    .treatment,
+    .feedback,
+    .service,
+    .license,
+    .time ,
+    .contact,
+    .footer {
+        width: 100% !important;
+    }
+    .expert__title,
+.treatment__title,
+.contact__title{
+    font-size: var(--font-size-18) !important;
+}
+    
+    .list_image_card {
+        padding: 0px 3% !important;
+    }
+    .list_image_card-text{
+        font-size: 12px !important;
+        line-height: 20px !important;
+        padding: 0px 8% !important;
+    }
+    .btn-left{
+        left: 0px !important;
+    }
+    .btn-right{
+        right:0px !important;
+    }
+    .btns img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .feedback_body-container > img{
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    .feedback_body-list-item > img {
+        width: 90% !important;
+        height: auto !important;
+    }
+    .service__body-item-card{
+        line-height: 20px !important;
+        font-size: var(--font-size-12) !important;
+        gap: 0px !important;
+    }
+    .license
+    {
+        padding: 0px 10px;
+    }
+
+    .contact__body{
+        font-size: var(--font-size-14) !important;
+        width: 95% !important;
+    }
+    .footer__body-top{
+        height: 60px !important;
+    }
+    .footer__body-top > a{
+        height: 60px !important;
+    }
+    .footer__body-botom{
+        height: 39px !important;
+    }
+    .footer__body-botom> a{
+        height: 39px !important;
+    }
+}
