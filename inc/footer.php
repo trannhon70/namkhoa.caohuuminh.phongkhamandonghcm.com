@@ -2,12 +2,12 @@
     <img loading="lazy" src="<?php echo $local ?>/images/banner/footer.webp" alt="...">
     <div class="footer__body" >
         <div class="footer__body-top" >
-            <a href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en"></a>
-            <a href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en"></a>
-            <a href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en"></a>
+            <a aria-label="left" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en"></a>
+            <a aria-label="center" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en"></a>
+            <a aria-label="right" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en"></a>
         </div>
         <div class="footer__body-botom" >
-            <a href="tel:+0968063109"></a>
+            <a aria-label="bottom" href="tel:+0968063109"></a>
         </div>
     </div>
 </footer>

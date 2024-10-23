@@ -18,44 +18,6 @@ header("Cache-Control: public, max-age=31536000, must-revalidate");
     <title>Phòng khám đa khoa</title>
     <link rel="preload" fetchpriority="high" as="image" href="<?php echo $local ?>/images/banner/banner.webp" type="image/webp">
 
-    <script defer src="<?php echo $local ?>/js/cdn_image.min.js"></script>
-   
-    <style amp-boilerplate>
-    body {
-        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        opacity: 0;
-    }
-
-    @keyframes -amp-start {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-    </style><noscript>
-        <style amp-boilerplate>
-        body {
-            -webkit-animation: none;
-            -moz-animation: none;
-            -ms-animation: none;
-            animation: none;
-            margin: 0 auto;
-            width: 100%;
-            height: auto;
-            font-size: 1rem;
-            font-family: 'MyFont', sans-serif;
-            overflow-x: hidden !important;
-            max-width: var(--max-width);
-            box-sizing: border-box;
-        }
-        </style>
-    </noscript>
 
     <link rel="icon" href="<?php echo $local ?>/images/icons/icon_logo.webp" type="image/x-icon">
     <link rel="preload" href="css/index.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
