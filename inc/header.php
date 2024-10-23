@@ -11,11 +11,12 @@ header("Cache-Control: public, max-age=31536000, must-revalidate");
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <meta name="description"
         content="Phòng khám đa khoa chuyên điều trị bệnh nam khoa, bệnh xã hội, da liễu, hậu môn - trực tràng uy tính tại thành phố Hồ Chí Minh">
     <title>Phòng khám đa khoa</title>
+    <link rel="preload" fetchpriority="high" as="image" href="<?php echo $local ?>/images/banner/banner.webp" type="image/webp">
 
     <script defer src="<?php echo $local ?>/js/cdn_image.min.js"></script>
    
