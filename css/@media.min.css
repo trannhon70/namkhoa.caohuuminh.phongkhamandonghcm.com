@@ -70,4 +70,13 @@
     .footer__body-botom> a{
         height: 39px !important;
     }
+    .treatment__namkhoa > ul > li,
+    .treatment__benhxahoi > ul > li{
+        font-size:11px !important;
+    }
+
+    .expert > ul > li{
+        text-align: left !important;
+        padding: 0px 10px !important;
+    }
 }

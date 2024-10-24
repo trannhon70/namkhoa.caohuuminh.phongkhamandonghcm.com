@@ -74,17 +74,24 @@ $slides = [
             chuyên môn tốt và nhiều kinh nghiệm thăm khám.
         </div>
         <img loading="lazy" width="100%" height="auto" src="<?php echo $local ?>/images/banner/bac_si_1.webp" alt="...">
+
+    </session>
+    <section class="expert">
         <div class="expert__title1">
             BS. cao hữu minh
         </div>
         <span>
             Quá trình công tác
         </span>
+    </section>
+    <section class="expert expert_ul">
         <ul>
-            <li><strong>.</strong> 20 năm kinh nghiệm khám chữa bệnh Ngoại khoa tổng quát và Nam khoa</li>
-            <li><strong>.</strong> Từng công tác tại Bệnh viện Quân Y 16, Bệnh viện Quân Y 103, Viện Y Học Cổ Truyền</li>
-            <li><strong>.</strong> Từng giữ chức vụ Phó giám đốc Bệnh viện Quận Y 16 trực thuộc Bộ Quốc Phòng</li>
+            <li><strong>+ </strong> 20 năm kinh nghiệm khám chữa bệnh Ngoại khoa tổng quát và Nam khoa</li>
+            <li><strong>+ </strong> Từng công tác tại Bệnh viện Quân Y 16, Bệnh viện Quân Y 103, Viện Y Học Cổ Truyền</li>
+            <li><strong>+ </strong> Từng giữ chức vụ Phó giám đốc Bệnh viện Quận Y 16 trực thuộc Bộ Quốc Phòng</li>
         </ul>
+    </section>
+    <section class="expert">
         <div class="expert__spacialty">
             <div class="expert__spacialty-title">
                 Chuyên khoa :
@@ -99,15 +106,56 @@ $slides = [
         <div class="expert__certificate">
             <button>CHỨNG CHỈ</button>
         </div>
+    </section>
+    <section class="expert">
         <div class="expert__certificate-img">
             <img loading="lazy" width="100%" height="auto" src="<?php echo $local ?>/images/banner/chung_chi.webp" alt="...">
         </div>
-    </session>
+    </section>
+
     <section class="treatment">
         <div class="treatment__title">
             ĐIỀU TRỊ CÁC BỆNH LÝ
         </div>
-        <div id="slider">
+       
+    </section>
+    <section class="treatment">
+    <div class="treatment__namkhoa">
+            <div class="treatment__namkhoa-title">
+                bệnh nam khoa :
+            </div>
+            <ul>
+                <li>bệnh bao quy đầu</li>
+                <li>rối loạn xuất tinh</li>
+                <li>bệnh tinh hoàn</li>
+                <li>bệnh tuyến tiền liệt</li>
+                <li>bệnh đường tiết niệu</li>
+                <li>chỉnh hình dương vật</li>
+                <li>vô sinh hiến muộn</li>
+                <li>rối loạn chức năng sinh dục</li>
+                <li>bệnh dương vật</li>
+            </ul>
+        </div>
+    </section>
+    <section class="treatment">
+        
+        <div class="treatment__benhxahoi">
+            <div class="treatment__benhxahoi-title">
+                bệnh xã hội :
+            </div>
+            <ul>
+                <li>sùi màu gà</li>
+                <li>bệnh lậu</li>
+                <li>giang mai</li>
+                <li>mụn sinh dục</li>
+                <li>rận mu</li>
+
+            </ul>
+        </div>
+       
+    </section>
+    <section class="treatment">
+    <div id="slider">
             <div class="slide_show w-100">
                 <div class="list_image">
                     <?php foreach ($slides as $slide): ?>
@@ -180,7 +228,7 @@ $slides = [
             </div>
         </div>
     </section>
-    <section class="license">
+   <section class="license">
         <img loading="lazy" src="<?php echo $local ?>/images/banner/giay_phep.webp" alt="...">
     </section>
     <section class="time">
@@ -190,20 +238,26 @@ $slides = [
         <div class="contact__title">
             LIÊN HỆ TƯ VẤN VÀ ĐẶT LỊCH KHÁM
         </div>
-        <div class="contact__body" >
-             <div>
-                <strong>HOTLINE: </strong> <span>0968 063 109</span>
-             </div>  
-             <div>
-                <strong>ZALO: </strong> <span>0968 063 109</span>
-             </div>
-             <div>
-                <strong>CHAT TRỰC TIẾP </strong> 
-             </div>  
-             <div>
+        <div class="contact__body">
+            <div>
+                <a aria-label="phone" href="tel:+0968063109">
+                    <strong>HOTLINE: </strong> <span>0968 063 109</span>
+                </a>
+            </div>
+            <div>
+                <a aria-label="phone" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
+                    <strong>ZALO: </strong> <span>0968 063 109</span>
+                </a>
+            </div>
+            <div>
+                <a aria-label="phone" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
+                    <strong>CHAT TRỰC TIẾP </strong>
+                </a>
+            </div>
+            <div>
                 <strong>ĐỊA CHỈ: </strong> <span>360 An Dương Vương, P.4, Q.5, TP.HCM</span>
-             </div>           
-        </div>                
+            </div>
+        </div>
     </section>
 
     <?php include_once "inc/footer.php" ?>
