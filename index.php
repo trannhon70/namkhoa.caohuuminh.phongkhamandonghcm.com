@@ -171,7 +171,7 @@ $slides = [
     </section>
 
     <section class="treatment">
-    <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
+        <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
             <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
         </a>
     </section>
@@ -262,7 +262,11 @@ $slides = [
         <img loading="lazy" src="<?php echo $local ?>/images/banner/giay_phep.webp" alt="...">
     </section>
     <section class="time">
-        <img loading="lazy" src="<?php echo $local ?>/images/banner/time.webp" alt="...">
+        <div class="ping-wrapper">
+            <div class="ping-border">
+                <img loading="lazy" src="<?php echo $local ?>/images/banner/time.webp" alt="...">
+            </div>
+        </div>
     </section>
     <section class="contact">
         <div class="contact__title">

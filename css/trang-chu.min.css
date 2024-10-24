@@ -279,11 +279,13 @@
 
 .time{
     text-align: var(--center);
+    min-height: 115px;
 }
 
-.time > img {
-    width: 70%;
+.time  img {
+    width: 100%;
     height: auto;
+    border: 1px solid #034fe6; /* Border của thẻ chính */
 }
 
 .contact__body {
@@ -591,3 +593,48 @@
     border: 1px dashed;
     border-color: #00669E;
  }
+
+ /* ping */
+ .ping-wrapper {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    min-height: 115px;
+  }
+
+  .ping-border {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 11px;
+  }
+
+  .ping-layer {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* Đặt vào giữa và bắt đầu từ kích thước 0 */
+    opacity: 0; /* Bắt đầu không nhìn thấy */
+    pointer-events: none; /* Đảm bảo pseudo-elements không can thiệp vào các tương tác */
+    animation: pingLayer 2s infinite;
+  }
+
+  @keyframes pingLayer {
+    0% {
+      transform: translate(-50%, -50%) scale(0); /* Bắt đầu với kích thước 0 */
+      opacity: 1; /* Bắt đầu với độ mờ 1 */
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1); /* Mở rộng */
+      opacity: 0; /* Biến mất khi mở rộng */
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(0); /* Quay lại kích thước 0 */
+      opacity: 0; /* Đảm bảo không còn nhìn thấy khi kết thúc */
+    }
+  }

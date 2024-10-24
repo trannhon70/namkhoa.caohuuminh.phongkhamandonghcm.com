@@ -37,37 +37,32 @@
     showFeedback(currentIndex); // Initialize the first feedback as active
     setInterval(handleChangeSlideFeedback, 4000);
 </script>
-<!-- <script defer>
-document.addEventListener('scroll', function() {
-    const expertSection = document.querySelector('.expert_ul');
-    const rect = expertSection.getBoundingClientRect();
-
-    // Kiểm tra nếu phần tử .expert nằm trong khung nhìn
-    if (rect.top < window.innerHeight) {
-        // Kiểm tra nếu thẻ <ul> đã được thêm vào hay chưa
-        if (!expertSection.querySelector('ul')) {
-            // Tạo thẻ <ul>
-            const ulElement = document.createElement('ul');
-
-            // Tạo nội dung cho thẻ <ul>
-            const content = [
-                "<li><strong>+ </strong> 20 năm kinh nghiệm khám chữa bệnh Ngoại khoa tổng quát và Nam khoa</li>",
-                "<li><strong>+ </strong> Từng công tác tại Bệnh viện Quân Y 16, Bệnh viện Quân Y 103, Viện Y Học Cổ Truyền</li>",
-                "<li><strong>+ </strong> Từng giữ chức vụ Phó giám đốc Bệnh viện Quận Y 16 trực thuộc Bộ Quốc Phòng</li>"
-            ];
-
-            // Gắn nội dung vào thẻ <ul>
-            ulElement.innerHTML = content.join(''); // Chuyển mảng thành chuỗi HTML
-            
-            // Thêm thẻ <ul> vào phần tử expertSection
-            expertSection.appendChild(ulElement); // Thêm thẻ <ul> vào DOM
-
-            // Hiển thị nội dung
-            ulElement.style.display = 'block'; // Hiển thị thẻ <ul>
-        }
+<script defer >
+    // Số lượng lớp ping cần tạo
+    const numberOfLayers = 10;
+    // Lấy phần tử chứa các lớp ping
+    const pingWrapper = document.querySelector('.ping-wrapper');
+    // Hàm tạo màu ngẫu nhiên tươi sáng
+    function getRandomBrightColor() {
+      // Sử dụng HSL để tạo màu với độ bão hòa và độ sáng cao
+      const hue = Math.floor(Math.random() * 360); 
+      const saturation = 50; 
+      const lightness = Math.floor(Math.random() * 21) + 20; 
+      return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
     }
-});
-</script> -->
+
+    // Tạo các lớp ping
+    for (let i = 1; i <= numberOfLayers; i++) {
+      const pingLayer = document.createElement('div');
+      pingLayer.className = `ping-layer ping-layer${i}`;
+      pingLayer.style.width = `calc(100% + ${10 * i}px)`;
+      pingLayer.style.height = `calc(100% + ${10 * i}px)`;
+      pingLayer.style.border = '4px solid';
+      pingLayer.style.borderColor = getRandomBrightColor(); 
+      pingLayer.style.animationDelay = `${0.2 * (i - 0.6)}s`; 
+      pingWrapper.appendChild(pingLayer);
+    }
+  </script>
 </body>
 
 </html>
