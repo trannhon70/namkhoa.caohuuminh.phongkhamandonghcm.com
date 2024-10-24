@@ -1,12 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Danh sách sản phẩm</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+#load-more {
+    margin: 20px auto;
+    display: block;
+}
+</style>
 <body>
-    ádasdasdas
-    <script defer src="js/slider.min.js"></script>
+    <header>
+        <h1>Danh sách sản phẩm</h1>
+    </header>
+    <main class="product-list-container">
+        <section class="product-list"></section>
+        <button id="load-more">Tải thêm sản phẩm</button>
+    </main>
+    <script  defer>
+        const products = [
+    { name: "Sản phẩm 1", price: "100.000 VNĐ" },
+    { name: "Sản phẩm 2", price: "200.000 VNĐ" },
+    { name: "Sản phẩm 3", price: "300.000 VNĐ" },
+    { name: "Sản phẩm 4", price: "400.000 VNĐ" },
+    { name: "Sản phẩm 5", price: "500.000 VNĐ" },
+    { name: "Sản phẩm 6", price: "600.000 VNĐ" },
+    // Thêm nhiều sản phẩm khác nếu cần
+];
+
+let currentIndex = 0;
+const itemsPerPage = 3;
+
+function loadProducts() {
+    const productList = document.querySelector('.product-list');
+    const fragment = document.createDocumentFragment();
+
+    for (let i = 0; i < itemsPerPage; i++) {
+        if (currentIndex >= products.length) {
+            break; // Không còn sản phẩm nào để tải
+        }
+
+        const productItem = document.createElement('div');
+        productItem.classList.add('product-item');
+        productItem.innerHTML = `
+            <h2>${products[currentIndex].name}</h2>
+            <p>Giá: ${products[currentIndex].price}</p>
+        `;
+        fragment.appendChild(productItem);
+        currentIndex++;
+    }
+
+    productList.appendChild(fragment); // Thêm toàn bộ vào DOM một lần
+}
+
+// Tải sản phẩm đầu tiên khi trang được tải
+loadProducts();
+
+// Xử lý sự kiện cho nút "Tải thêm sản phẩm"
+document.getElementById('load-more').addEventListener('click', loadProducts);
+    </script>
 </body>
 </html>

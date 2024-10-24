@@ -7,7 +7,9 @@
     .license,
     .time ,
     .contact,
-    .footer {
+    .footer ,
+    .section__button,
+    .expert__chat{
         width: 100% !important;
     }
     .expert__title,
@@ -72,11 +74,20 @@
     }
     .treatment__namkhoa > ul > li,
     .treatment__benhxahoi > ul > li{
-        font-size:11px !important;
+        font-size:10px !important;
     }
 
     .expert > ul > li{
         text-align: left !important;
         padding: 0px 10px !important;
+    }
+
+    .expert__chat{
+        padding: 10px !important;
+    }
+
+    .expert__chat > img{
+        width: 100% !important;
+        height: auto !important;
     }
 }

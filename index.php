@@ -64,6 +64,14 @@ $slides = [
             <img loading="lazy" width="100%" height="auto" srcset="<?php echo $local ?>/images/banner/banner.webp 1024w, <?php echo $local ?>/images/banner/banner.webp 640w" sizes="(max-width: 640px) 100vw, 1024px" src="<?php echo $local ?>/images/banner/banner.webp" alt="...">
         </div>
     </header>
+    <section class="section__button">
+        <a aria-label="liên hệ" class="animated-button" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Liên hệ với bác sĩ tại đây</a>
+    </section>
 
     <session class="expert">
         <div class="expert__title">
@@ -103,6 +111,9 @@ $slides = [
                 <li>- Cấp cưu nam khoa</li>
             </ul>
         </div>
+        <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
+            <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
+        </a>
         <div class="expert__certificate">
             <button>CHỨNG CHỈ</button>
         </div>
@@ -112,17 +123,25 @@ $slides = [
             <img loading="lazy" width="100%" height="auto" src="<?php echo $local ?>/images/banner/chung_chi.webp" alt="...">
         </div>
     </section>
+    <section class="section__button">
+        <a aria-label="liên hệ" class="animated-button" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Đặt lịch khám ngay</a>
+    </section>
 
     <section class="treatment">
         <div class="treatment__title">
             ĐIỀU TRỊ CÁC BỆNH LÝ
         </div>
-       
+
     </section>
-    <section class="treatment">
-    <div class="treatment__namkhoa">
+    <section class="treatment treatment__card">
+        <div class="treatment__namkhoa">
             <div class="treatment__namkhoa-title">
-                bệnh nam khoa :
+                bệnh nam khoa
             </div>
             <ul>
                 <li>bệnh bao quy đầu</li>
@@ -136,12 +155,9 @@ $slides = [
                 <li>bệnh dương vật</li>
             </ul>
         </div>
-    </section>
-    <section class="treatment">
-        
         <div class="treatment__benhxahoi">
             <div class="treatment__benhxahoi-title">
-                bệnh xã hội :
+                bệnh xã hội
             </div>
             <ul>
                 <li>sùi màu gà</li>
@@ -152,10 +168,16 @@ $slides = [
 
             </ul>
         </div>
-       
     </section>
+
     <section class="treatment">
-    <div id="slider">
+    <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
+            <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
+        </a>
+    </section>
+
+    <section class="treatment">
+        <div id="slider">
             <div class="slide_show w-100">
                 <div class="list_image">
                     <?php foreach ($slides as $slide): ?>
@@ -201,6 +223,14 @@ $slides = [
             </div>
         </div>
     </section>
+    <section class="section__button">
+        <a aria-label="liên hệ" class="animated-button" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Liên hệ ngay</a>
+    </section>
     <section class="service">
         <div class="service__body">
             <div class="service__body-item">
@@ -228,7 +258,7 @@ $slides = [
             </div>
         </div>
     </section>
-   <section class="license">
+    <section class="license">
         <img loading="lazy" src="<?php echo $local ?>/images/banner/giay_phep.webp" alt="...">
     </section>
     <section class="time">
