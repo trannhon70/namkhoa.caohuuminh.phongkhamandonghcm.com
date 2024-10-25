@@ -63,6 +63,16 @@
       pingWrapper.appendChild(pingLayer);
     }
   </script>
+
+  <!-- Google tag (gtag.js) -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-M8KPG8P2YN"></script>
+<script defer>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M8KPG8P2YN');
+</script>
 </body>
 
 </html>
