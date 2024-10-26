@@ -72,10 +72,7 @@
     .footer__body-botom> a{
         height: 39px !important;
     }
-    .treatment__namkhoa > ul > li,
-    .treatment__benhxahoi > ul > li{
-        font-size:10px !important;
-    }
+   
 
     .expert > ul > li{
         text-align: left !important;

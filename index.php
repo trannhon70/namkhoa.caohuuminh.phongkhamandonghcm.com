@@ -73,6 +73,41 @@ $slides = [
             Liên hệ với bác sĩ tại đây</a>
     </section>
 
+    
+    <section class="treatment treatment__card">
+        <div class="treatment__namkhoa">
+
+            <ul>
+                <li class="treatment__namkhoa-title" >ĐIỀU TRỊ CHUYÊN KHOA</li>
+                <li class="treatment__namkhoa-titleN">+ bệnh nam khoa</li>
+                <li><a aria-label="1" href="">1. Bệnh bao quy đầu</a></li>
+                <li><a aria-label="1" href="">2. Rối loạn xuất tinh</a></li>
+                <li><a aria-label="1" href="">3. Bệnh tinh hoàn</a></li>
+                <li><a aria-label="1" href="">4. Bệnh tuyến tiền liệt</a></li>
+                <li><a aria-label="1" href="">5. Bệnh đường tiết niệu</a></li>
+                <li><a aria-label="1" href="">6. Chỉnh hình dương vật</a></li>
+                <li><a aria-label="1" href="">7. Vô sinh hiến muộn</a></li>
+                <li><a aria-label="1" href="">7. Vô sinh hiến muộn</a></li>
+                <li><a aria-label="1" href="">8. Rối loạn chức năng sinh dục</a></li>
+                <li><a aria-label="1" href="">9. Bệnh dương vật</a></li>
+                
+                <li class="treatment__namkhoa-titleN">+  bệnh xã hội</li>
+                <li><a aria-label="1" href="">1. Sùi màu gà</a></li>
+                <li><a aria-label="1" href="">2. Bệnh lậu</a></li>
+                <li><a aria-label="1" href="">3. Giang mai</a></li>
+                <li><a aria-label="1" href="">4. Mụn sinh dục</a></li>
+                <li><a aria-label="1" href="">5. Rận mu</a></li>
+               
+            </ul>
+        </div>
+       
+    </section>
+    <section class="treatment">
+        <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
+            <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
+        </a>
+    </section>
+
     <session class="expert">
         <div class="expert__title">
             GIỚI THIỆU THÔNG TIN BÁC SĨ
@@ -138,43 +173,9 @@ $slides = [
         </div>
 
     </section>
-    <section class="treatment treatment__card">
-        <div class="treatment__namkhoa">
-            <div class="treatment__namkhoa-title">
-                bệnh nam khoa
-            </div>
-            <ul>
-                <li>bệnh bao quy đầu</li>
-                <li>rối loạn xuất tinh</li>
-                <li>bệnh tinh hoàn</li>
-                <li>bệnh tuyến tiền liệt</li>
-                <li>bệnh đường tiết niệu</li>
-                <li>chỉnh hình dương vật</li>
-                <li>vô sinh hiến muộn</li>
-                <li>rối loạn chức năng sinh dục</li>
-                <li>bệnh dương vật</li>
-            </ul>
-        </div>
-        <div class="treatment__benhxahoi">
-            <div class="treatment__benhxahoi-title">
-                bệnh xã hội
-            </div>
-            <ul>
-                <li>sùi màu gà</li>
-                <li>bệnh lậu</li>
-                <li>giang mai</li>
-                <li>mụn sinh dục</li>
-                <li>rận mu</li>
+   
 
-            </ul>
-        </div>
-    </section>
-
-    <section class="treatment">
-        <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
-            <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
-        </a>
-    </section>
+   
 
     <section class="treatment">
         <div id="slider">
