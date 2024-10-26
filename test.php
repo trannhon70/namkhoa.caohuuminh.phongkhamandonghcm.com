@@ -84,3 +84,32 @@ document.getElementById('load-more').addEventListener('click', loadProducts);
     </script>
 </body>
 </html>
+
+<!-- <section class="treatment">
+        <div id="slider">
+            <div class="slide_show w-100">
+                <div class="list_image">
+                <?php foreach ($slides as $slide): ?>
+                        <div class="list_image_card">
+                            <img loading="lazy" height="100%" width="100%" src="<?php echo $local . $slide['image']; ?>" alt="<?php echo $slide['alt']; ?>">
+                            <div class="list_image_card-text">
+                                <div>
+                                    <strong>Biểu hiện : </strong>
+                                    <span><?php echo $slide['symptom']; ?></span>
+                                </div>
+                                <div>
+                                    <strong>Biến chứng: </strong>
+                                    <span><?php echo $slide['complication']; ?></span>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+                <div class="btns">
+                    <div class="btn-left btn"><img loading="lazy" width="30px" height="30px" src="<?php echo $local ?>/images/icons/icon_prev.webp" alt="..."></div>
+                    <div class="btn-right btn"><img loading="lazy" width="30px" height="30px" src="<?php echo $local ?>/images/icons/icon_next.webp" alt="..."></i></div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->

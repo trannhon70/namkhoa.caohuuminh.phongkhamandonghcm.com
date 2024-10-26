@@ -14,7 +14,7 @@
 <?php include_once 'layout/modalKhuyenMai.php' ?>
 
 <script language="javascript" src="https://npa.zoosnet.net/JS/LsJS.aspx?siteid=NPA46777247&float=1&lng=en"></script>
-<script defer src="<?php echo $local ?>/js/slider.min.js"></script>
+<!-- <script defer src="<?php echo $local ?>/js/slider.min.js"></script> -->
 <script defer>
     const feedbacks = document.querySelectorAll('.feedback_body-list-item');
     const listItems = document.querySelectorAll('.feedback-item');

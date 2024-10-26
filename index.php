@@ -70,7 +70,7 @@ $slides = [
             <span></span>
             <span></span>
             <span></span>
-            Liên hệ với bác sĩ tại đây</a>
+            tư vấn với bác sĩ tại đây</a>
     </section>
 
     
@@ -177,11 +177,9 @@ $slides = [
 
    
 
+    
     <section class="treatment">
-        <div id="slider">
-            <div class="slide_show w-100">
-                <div class="list_image">
-                    <?php foreach ($slides as $slide): ?>
+    <?php foreach ($slides as $slide): ?>
                         <div class="list_image_card">
                             <img loading="lazy" height="100%" width="100%" src="<?php echo $local . $slide['image']; ?>" alt="<?php echo $slide['alt']; ?>">
                             <div class="list_image_card-text">
@@ -196,14 +194,6 @@ $slides = [
                             </div>
                         </div>
                     <?php endforeach; ?>
-                </div>
-                <div class="btns">
-                    <div class="btn-left btn"><img loading="lazy" width="30px" height="30px" src="<?php echo $local ?>/images/icons/icon_prev.webp" alt="..."></div>
-                    <div class="btn-right btn"><img loading="lazy" width="30px" height="30px" src="<?php echo $local ?>/images/icons/icon_next.webp" alt="..."></i></div>
-                </div>
-
-            </div>
-        </div>
     </section>
     <section class="feedback">
         <div class="feedback_body">
