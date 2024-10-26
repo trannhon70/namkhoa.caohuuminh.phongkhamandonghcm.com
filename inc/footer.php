@@ -65,13 +65,33 @@
   </script>
 
   <!-- Google tag (gtag.js) -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-M8KPG8P2YN"></script>
+<!-- <script defer src="https://www.googletagmanager.com/gtag/js?id=G-M8KPG8P2YN"></script>
 <script defer>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-M8KPG8P2YN');
+</script> -->
+
+<script defer>
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+      // Chèn script Google Tag Manager sau khi đợi 10 giây
+      const gtagScript = document.createElement("script");
+      gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-M8KPG8P2YN";
+      gtagScript.async = true; // Sử dụng async cho script động
+      document.head.appendChild(gtagScript);
+
+      // Thiết lập gtag sau khi tải script
+      gtagScript.onload = function() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-M8KPG8P2YN');
+      };
+    }, 10000); // Trì hoãn 10 giây
+  });
 </script>
 </body>
 
