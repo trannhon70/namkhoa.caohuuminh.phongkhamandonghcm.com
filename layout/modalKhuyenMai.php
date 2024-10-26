@@ -21,8 +21,7 @@
 
     .modal-content img {
         border-radius: 10px;
-        border: 2px dashed;
-        border-color: #25286D;
+        border: 2px solid  #25286D;
     }
 
     @keyframes slidein {
