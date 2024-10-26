@@ -85,11 +85,9 @@ $slides = [
                 <li><a aria-label="1" href="">3. Bệnh tinh hoàn</a></li>
                 <li><a aria-label="1" href="">4. Bệnh tuyến tiền liệt</a></li>
                 <li><a aria-label="1" href="">5. Bệnh đường tiết niệu</a></li>
-                <li><a aria-label="1" href="">6. Chỉnh hình dương vật</a></li>
-                <li><a aria-label="1" href="">7. Vô sinh hiến muộn</a></li>
-                <li><a aria-label="1" href="">7. Vô sinh hiến muộn</a></li>
-                <li><a aria-label="1" href="">8. Rối loạn chức năng sinh dục</a></li>
-                <li><a aria-label="1" href="">9. Bệnh dương vật</a></li>
+                <li><a aria-label="1" href="">6. Vô sinh hiến muộn</a></li>
+                <li><a aria-label="1" href="">7. Rối loạn chức năng sinh dục</a></li>
+                <li><a aria-label="1" href="">8. Bệnh dương vật</a></li>
                 
                 <li class="treatment__namkhoa-titleN">+  bệnh xã hội</li>
                 <li><a aria-label="1" href="">1. Sùi màu gà</a></li>
