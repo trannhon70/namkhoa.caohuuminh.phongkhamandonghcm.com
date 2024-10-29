@@ -4,7 +4,7 @@ header("Timing-Allow-Origin: *");
 header("Cache-Control: public, max-age=31536000, must-revalidate");
 
     $local ='http://localhost/namkhoa.caohuuminh.phongkhamandonghcm.com'
-    // $local ='https://namkhoa.caohuuminh.phongkhamandonghcm.com'
+    // $local ='https://khamnamkhoa.phongkhamandonghcm.com'
 ?>
 <!DOCTYPE html>
 <html ⚡ lang="en">
