@@ -628,3 +628,21 @@
       opacity: 0; /* Đảm bảo không còn nhìn thấy khi kết thúc */
     }
   }
+
+  .expert__text{
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-700);
+    color: rgb(0, 216, 216);
+    margin-top: 10px;
+  }
+
+  .expert__span{
+    display: var(--display-flex);
+    align-items: var(--align-item-center);
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  .expert__img{
+    margin-top: 10px;
+  }

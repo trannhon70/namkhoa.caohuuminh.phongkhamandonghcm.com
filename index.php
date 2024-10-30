@@ -73,43 +73,114 @@ $slides = [
             tư vấn với bác sĩ tại đây</a>
     </section>
 
-    
-    <section class="treatment treatment__card">
-        <div class="treatment__namkhoa">
-
-            <ul>
-                <li class="treatment__namkhoa-title" >ĐIỀU TRỊ CHUYÊN KHOA</li>
-                <li class="treatment__namkhoa-titleN">+ bệnh nam khoa</li>
-                <li><a aria-label="1" href="">1. Bệnh bao quy đầu</a></li>
-                <li><a aria-label="1" href="">2. Rối loạn xuất tinh</a></li>
-                <li><a aria-label="1" href="">3. Bệnh tinh hoàn</a></li>
-                <li><a aria-label="1" href="">4. Bệnh tuyến tiền liệt</a></li>
-                <li><a aria-label="1" href="">5. Bệnh đường tiết niệu</a></li>
-                <li><a aria-label="1" href="">6. Vô sinh hiến muộn</a></li>
-                <li><a aria-label="1" href="">7. Rối loạn chức năng sinh dục</a></li>
-                <li><a aria-label="1" href="">8. Bệnh dương vật</a></li>
-                
-                <li class="treatment__namkhoa-titleN">+  bệnh xã hội</li>
-                <li><a aria-label="1" href="">1. Sùi màu gà</a></li>
-                <li><a aria-label="1" href="">2. Bệnh lậu</a></li>
-                <li><a aria-label="1" href="">3. Giang mai</a></li>
-                <li><a aria-label="1" href="">4. Mụn sinh dục</a></li>
-                <li><a aria-label="1" href="">5. Rận mu</a></li>
-               
-            </ul>
+    <session class="expert">
+        <h2 class="expert__title">
+            KHI NÀO NAM GIỚI CẦN ĐI KHÁM NAM KHOA
+        </h2>
+        <div class="expert__text" >
+            Khi gặp vấn đề về chức năng tình dục
         </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+                Xuất tinh sớm, khó xuất tinh, giảm ham muốn
+            </div>
+        </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+                Dương vật không đủ độ cương để quan hệ tình dục
+            </div>
+        </div>
+    </section>
+
+    <session class="expert">
+        <div class="expert__text" >
+            Bất thường về bộ phận sinh dục 
+        </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+                Dài / hẹp / nghẹt bao quy đầu
+            </div>
+        </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+             Dương vật: Viêm nhiễm, nổi mụn, ngứa, đau, sưng, chảy máu, mùi hôi
+            </div>
+        </div>
+    </session>
+
+    <session class="expert">
+        <div class="expert__text" >
+            Viêm đường tiết niệu - sinh dục 
+        </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+            Tiểu buốt, tiểu rắt, chảy mủ miệng sáo
+            </div>
+        </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+            Nước tiểu màu bất thường, tiểu nhiều lần
+            </div>
+        </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+            Viêm niệu đạo, viêm tuyến tiền liệt, viêm mào tinh hoàn, viêm tinh hoàn
+            </div>
+        </div>
+    </session>
+
+    <session class="expert">
+        <div class="expert__text" >
+        Một số bệnh lây qua đường quan hệ không an toàn
+        </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+            Sùi mào gà: Nổi mụn thịt, mụn li ti không đau, sần sùi ở bộ phận sinh dục
+            </div>
+        </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+            Bệnh lậu: Dương vật chảy mủ, tiểu có mủ sau quan hệ không an toàn
+            </div>
+        </div>
+        <div class="expert__span" >
+            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+            <div>
+            Mụn rộp: Cậu nhỏ nổi mụn đỏ, mụn nước, mụn ngứa có mủ
+            </div>
+        </div>
+    </session>
+
+    <section class="expert">
        
+            <img class="expert__img" width="100%" height="auto" loading="lazy" src="<?php echo $local ?>/images/banner/bacsi_kham.webp" alt="...">
     </section>
     <section class="treatment">
         <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
             <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
         </a>
     </section>
+    <section class="expert">
+        <h2 class="expert__title">
+         BS. Cao Hữu Minh - Phòng Khám Nam Khoa Uy Tín Tại TPHCM
+        </h2>
+    </section>
+   
+   
 
     <session class="expert">
-        <div class="expert__title">
+        <!-- <div class="expert__title">
             GIỚI THIỆU THÔNG TIN BÁC SĨ
-        </div>
+        </div> -->
         <div class="expert__content">
             Đi thăm khám Nam khoa hiệu quả và an toàn bắt buộc cần có bác sĩ trình độ cao,
             chuyên môn tốt và nhiều kinh nghiệm thăm khám.
@@ -144,6 +215,35 @@ $slides = [
                 <li>- Cấp cưu nam khoa</li>
             </ul>
         </div>
+    </section>
+    <section class="treatment treatment__card">
+        <div class="treatment__namkhoa">
+
+            <ul>
+                <li class="treatment__namkhoa-title">ĐIỀU TRỊ CHUYÊN KHOA</li>
+                <li class="treatment__namkhoa-titleN">+ bệnh nam khoa</li>
+                <li><a aria-label="1" href="">1. Bệnh bao quy đầu</a></li>
+                <li><a aria-label="1" href="">2. Rối loạn xuất tinh</a></li>
+                <li><a aria-label="1" href="">3. Bệnh tinh hoàn</a></li>
+                <li><a aria-label="1" href="">4. Bệnh tuyến tiền liệt</a></li>
+                <li><a aria-label="1" href="">5. Bệnh đường tiết niệu</a></li>
+                <li><a aria-label="1" href="">6. Vô sinh hiến muộn</a></li>
+                <li><a aria-label="1" href="">7. Rối loạn chức năng sinh dục</a></li>
+                <li><a aria-label="1" href="">8. Bệnh dương vật</a></li>
+
+                <li class="treatment__namkhoa-titleN">+ bệnh xã hội</li>
+                <li><a aria-label="1" href="">1. Sùi màu gà</a></li>
+                <li><a aria-label="1" href="">2. Bệnh lậu</a></li>
+                <li><a aria-label="1" href="">3. Giang mai</a></li>
+                <li><a aria-label="1" href="">4. Mụn sinh dục</a></li>
+                <li><a aria-label="1" href="">5. Rận mu</a></li>
+
+            </ul>
+        </div>
+
+    </section>
+    <section class="expert">
+        
         <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
             <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
         </a>
@@ -151,6 +251,7 @@ $slides = [
             <button>CHỨNG CHỈ</button>
         </div>
     </section>
+    
     <section class="expert">
         <div class="expert__certificate-img">
             <img loading="lazy" width="100%" height="auto" src="<?php echo $local ?>/images/banner/chung_chi.webp" alt="...">
@@ -167,31 +268,27 @@ $slides = [
 
     <section class="treatment">
         <div class="treatment__title">
-            ĐIỀU TRỊ CÁC BỆNH LÝ
+            CÁC BỆNH NAM KHOA THƯỜNG GẶP
         </div>
 
     </section>
-   
 
-   
-
-    
     <section class="treatment">
-    <?php foreach ($slides as $slide): ?>
-                        <div class="list_image_card">
-                            <img loading="lazy" height="100%" width="100%" src="<?php echo $local . $slide['image']; ?>" alt="<?php echo $slide['alt']; ?>">
-                            <div class="list_image_card-text">
-                                <div>
-                                    <strong>Biểu hiện : </strong>
-                                    <span><?php echo $slide['symptom']; ?></span>
-                                </div>
-                                <div>
-                                    <strong>Biến chứng: </strong>
-                                    <span><?php echo $slide['complication']; ?></span>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
+        <?php foreach ($slides as $slide): ?>
+            <div class="list_image_card">
+                <img loading="lazy" height="100%" width="100%" src="<?php echo $local . $slide['image']; ?>" alt="<?php echo $slide['alt']; ?>">
+                <div class="list_image_card-text">
+                    <div>
+                        <strong>Biểu hiện : </strong>
+                        <span><?php echo $slide['symptom']; ?></span>
+                    </div>
+                    <div>
+                        <strong>Biến chứng: </strong>
+                        <span><?php echo $slide['complication']; ?></span>
+                    </div>
+                </div>
+            </div>
+        <?php endforeach; ?>
     </section>
     <section class="feedback">
         <div class="feedback_body">

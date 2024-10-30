@@ -16,6 +16,7 @@
 .treatment__title,
 .contact__title{
     font-size: var(--font-size-18) !important;
+    text-align: var(--center) !important;
 }
     
     .list_image_card {
