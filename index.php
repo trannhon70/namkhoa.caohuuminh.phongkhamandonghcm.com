@@ -160,7 +160,7 @@ $slides = [
         </div>
     </session>
 
-    <section class="expert">
+    <section class="expert expert__container">
        
             <img class="expert__img" width="100%" height="auto" loading="lazy" src="<?php echo $local ?>/images/banner/bacsi_kham.webp" alt="...">
     </section>

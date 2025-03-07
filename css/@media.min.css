@@ -88,4 +88,16 @@
         width: 100% !important;
         height: auto !important;
     }
+
+    .expert__text{
+        padding: 0px 10px !important;
+    }
+
+    .expert__span{
+        padding: 0px 10px !important;
+    }
+
+    .expert__container{
+        padding: 0px 10px !important;
+    }
 }
