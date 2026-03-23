@@ -65,10 +65,10 @@ $slides = [
                 loading="lazy"
                 width="100%"
                 height="auto"
-                srcset="/images/banner/banner.webp 1024w, 
-          /images/banner/banner.webp 640w"
+                srcset="<?php echo $local ?>//images/banner/banner.webp 1024w, 
+          <?php echo $local ?>//images/banner/banner.webp 640w"
                 sizes="(max-width: 640px) 100vw, 1024px"
-                src="/images/banner/banner.webp"
+                src="<?php echo $local ?>//images/banner/banner.webp"
                 alt="...">
         </div>
     </header>
@@ -206,7 +206,7 @@ $slides = [
         </section>
         <section class="expert expert_ul">
             <ul>
-                <li><strong>+ </strong> 20 năm kinh nghiệm khám chữa bệnh Ngoại khoa tổng quát và Nam khoa</li>
+                <li><strong>+ </strong> 40 năm kinh nghiệm khám chữa bệnh Ngoại khoa tổng quát và Nam khoa</li>
                 <li><strong>+ </strong> Từng công tác tại khoa Ngoại Tổng Quát, thủ thuật Trĩ tại Bệnh Viện Chợ Rẫy</li>
                 <li><strong>+ </strong> Từng công tác tại khoa Ngoại Gan Mật Tụy tại Bệnh Viện Chợ Rẫy</li>
             </ul>
@@ -383,7 +383,7 @@ $slides = [
                     </a>
                 </div>
                 <div>
-                    <strong>ĐỊA CHỈ: </strong> <span>360 An Dương Vương, P.4, Q.5, TP.HCM</span>
+                    <strong>ĐỊA CHỈ: </strong> <span>360 An Dương Vương, P. Chợ Quán, TP. HCM</span>
                 </div>
             </div>
         </section>

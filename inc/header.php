@@ -4,7 +4,7 @@ header("Timing-Allow-Origin: *");
 header("Cache-Control: public, max-age=31536000, must-revalidate");
 
 $local = 'http://localhost/namkhoa.caohuuminh.phongkhamandonghcm.com'
-// $local = 'http://ngoaikhoa.phongkhamandonghcm.com'
+// $local = 'https://ngoaikhoa.phongkhamandonghcm.com'
 ?>
 <!DOCTYPE html>
 <html ⚡ lang="en">
@@ -17,7 +17,6 @@ $local = 'http://localhost/namkhoa.caohuuminh.phongkhamandonghcm.com'
         content="Phòng khám đa khoa chuyên điều trị bệnh nam khoa, bệnh xã hội, da liễu, hậu môn - trực tràng uy tính tại thành phố Hồ Chí Minh">
     <title>Phòng khám đa khoa</title>
     <link rel="preload" fetchpriority="high" as="image" href="<?php echo $local ?>/images/banner/banner.webp" type="image/webp">
-
 
 
     <link rel="icon" href="<?php echo $local ?>/images/icons/icon_logo.webp" type="image/x-icon">
