@@ -61,7 +61,15 @@ $slides = [
 
     <header class="header">
         <div class="header__body">
-            <img loading="lazy" width="100%" height="auto" srcset="<?php echo $local ?>/images/banner/banner.webp 1024w, <?php echo $local ?>/images/banner/banner.webp 640w" sizes="(max-width: 640px) 100vw, 1024px" src="<?php echo $local ?>/images/banner/banner.webp" alt="...">
+            <img
+                loading="lazy"
+                width="100%"
+                height="auto"
+                srcset="/images/banner/banner.webp 1024w, 
+          /images/banner/banner.webp 640w"
+                sizes="(max-width: 640px) 100vw, 1024px"
+                src="/images/banner/banner.webp"
+                alt="...">
         </div>
     </header>
     <section class="section__button">
@@ -77,307 +85,307 @@ $slides = [
         <h2 class="expert__title">
             KHI NÀO NAM GIỚI CẦN ĐI KHÁM NAM KHOA
         </h2>
-        <div class="expert__text" >
+        <div class="expert__text">
             Khi gặp vấn đề về chức năng tình dục
         </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+        <div class="expert__span">
+            <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
             <div>
                 Xuất tinh sớm, khó xuất tinh, giảm ham muốn
             </div>
         </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+        <div class="expert__span">
+            <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
             <div>
                 Dương vật không đủ độ cương để quan hệ tình dục
             </div>
         </div>
-    </section>
+        </section>
 
-    <session class="expert">
-        <div class="expert__text" >
-            Bất thường về bộ phận sinh dục 
-        </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
-            <div>
-                Dài / hẹp / nghẹt bao quy đầu
+        <session class="expert">
+            <div class="expert__text">
+                Bất thường về bộ phận sinh dục
             </div>
-        </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
-            <div>
-             Dương vật: Viêm nhiễm, nổi mụn, ngứa, đau, sưng, chảy máu, mùi hôi
+            <div class="expert__span">
+                <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+                <div>
+                    Dài / hẹp / nghẹt bao quy đầu
+                </div>
             </div>
-        </div>
-    </session>
+            <div class="expert__span">
+                <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+                <div>
+                    Dương vật: Viêm nhiễm, nổi mụn, ngứa, đau, sưng, chảy máu, mùi hôi
+                </div>
+            </div>
+        </session>
 
-    <session class="expert">
-        <div class="expert__text" >
-            Viêm đường tiết niệu - sinh dục 
-        </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
-            <div>
-            Tiểu buốt, tiểu rắt, chảy mủ miệng sáo
+        <session class="expert">
+            <div class="expert__text">
+                Viêm đường tiết niệu - sinh dục
             </div>
-        </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
-            <div>
-            Nước tiểu màu bất thường, tiểu nhiều lần
+            <div class="expert__span">
+                <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+                <div>
+                    Tiểu buốt, tiểu rắt, chảy mủ miệng sáo
+                </div>
             </div>
-        </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
-            <div>
-            Viêm niệu đạo, viêm tuyến tiền liệt, viêm mào tinh hoàn, viêm tinh hoàn
+            <div class="expert__span">
+                <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+                <div>
+                    Nước tiểu màu bất thường, tiểu nhiều lần
+                </div>
             </div>
-        </div>
-    </session>
+            <div class="expert__span">
+                <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+                <div>
+                    Viêm niệu đạo, viêm tuyến tiền liệt, viêm mào tinh hoàn, viêm tinh hoàn
+                </div>
+            </div>
+        </session>
 
-    <session class="expert">
-        <div class="expert__text" >
-        Một số bệnh lây qua đường quan hệ không an toàn
-        </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
-            <div>
-            Sùi mào gà: Nổi mụn thịt, mụn li ti không đau, sần sùi ở bộ phận sinh dục
+        <session class="expert">
+            <div class="expert__text">
+                Một số bệnh lây qua đường quan hệ không an toàn
             </div>
-        </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
-            <div>
-            Bệnh lậu: Dương vật chảy mủ, tiểu có mủ sau quan hệ không an toàn
+            <div class="expert__span">
+                <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+                <div>
+                    Sùi mào gà: Nổi mụn thịt, mụn li ti không đau, sần sùi ở bộ phận sinh dục
+                </div>
             </div>
-        </div>
-        <div class="expert__span" >
-            <img width="20px" height="17px" loading="lazy"  src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
-            <div>
-            Mụn rộp: Cậu nhỏ nổi mụn đỏ, mụn nước, mụn ngứa có mủ
+            <div class="expert__span">
+                <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+                <div>
+                    Bệnh lậu: Dương vật chảy mủ, tiểu có mủ sau quan hệ không an toàn
+                </div>
             </div>
-        </div>
-    </session>
+            <div class="expert__span">
+                <img width="20px" height="17px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_next1.gif" alt="...">
+                <div>
+                    Mụn rộp: Cậu nhỏ nổi mụn đỏ, mụn nước, mụn ngứa có mủ
+                </div>
+            </div>
+        </session>
 
-    <section class="expert expert__container">
-       
+        <section class="expert expert__container">
+
             <img class="expert__img" width="100%" height="auto" loading="lazy" src="<?php echo $local ?>/images/banner/bacsi_kham.webp" alt="...">
-    </section>
-    <section class="treatment">
-        <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
-            <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
-        </a>
-    </section>
-    <section class="expert">
-        <h2 class="expert__title">
-         BS. Cao Hữu Minh - Phòng Khám Nam Khoa Uy Tín Tại TPHCM
-        </h2>
-    </section>
-   
-   
+        </section>
+        <section class="treatment">
+            <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
+                <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
+            </a>
+        </section>
+        <section class="expert">
+            <h2 class="expert__title">
+                BS. NGUYỄN THỊ MINH HƯƠNG - Phòng Khám Nam Khoa Uy Tín Tại TPHCM
+            </h2>
+        </section>
 
-    <session class="expert">
-        <!-- <div class="expert__title">
+
+
+        <session class="expert">
+            <!-- <div class="expert__title">
             GIỚI THIỆU THÔNG TIN BÁC SĨ
         </div> -->
-        <div class="expert__content">
-            Đi thăm khám Nam khoa hiệu quả và an toàn bắt buộc cần có bác sĩ trình độ cao,
-            chuyên môn tốt và nhiều kinh nghiệm thăm khám.
-        </div>
-        <img loading="lazy" width="100%" height="auto" src="<?php echo $local ?>/images/banner/bac_si_1.webp" alt="...">
-
-    </session>
-    <section class="expert">
-        <div class="expert__title1">
-            BS. cao hữu minh
-        </div>
-        <span>
-            Quá trình công tác
-        </span>
-    </section>
-    <section class="expert expert_ul">
-        <ul>
-            <li><strong>+ </strong> 20 năm kinh nghiệm khám chữa bệnh Ngoại khoa tổng quát và Nam khoa</li>
-            <li><strong>+ </strong> Từng công tác tại Bệnh viện Quân Y 16, Bệnh viện Quân Y 103, Viện Y Học Cổ Truyền</li>
-            <li><strong>+ </strong> Từng giữ chức vụ Phó giám đốc Bệnh viện Quận Y 16 trực thuộc Bộ Quốc Phòng</li>
-        </ul>
-    </section>
-    <section class="expert">
-        <div class="expert__spacialty">
-            <div class="expert__spacialty-title">
-                Chuyên khoa :
+            <div class="expert__content">
+                Đi thăm khám Nam khoa hiệu quả và an toàn bắt buộc cần có bác sĩ trình độ cao,
+                chuyên môn tốt và nhiều kinh nghiệm thăm khám.
             </div>
+            <img loading="lazy" width="100%" height="auto" src="<?php echo $local ?>/images/banner/bac_si_1.webp" alt="...">
+
+        </session>
+        <section class="expert">
+            <div class="expert__title1">
+                BS. NGUYỄN THỊ MINH HƯƠNG
+            </div>
+            <span>
+                Quá trình công tác
+            </span>
+        </section>
+        <section class="expert expert_ul">
             <ul>
-                <li>- Sinh sản nam</li>
-                <li>- Bệnh ngoại tiết niệu</li>
-                <li>- Rối lọa tiết tố nam</li>
-                <li>- Cấp cưu nam khoa</li>
+                <li><strong>+ </strong> 20 năm kinh nghiệm khám chữa bệnh Ngoại khoa tổng quát và Nam khoa</li>
+                <li><strong>+ </strong> Từng công tác tại khoa Ngoại Tổng Quát, thủ thuật Trĩ tại Bệnh Viện Chợ Rẫy</li>
+                <li><strong>+ </strong> Từng công tác tại khoa Ngoại Gan Mật Tụy tại Bệnh Viện Chợ Rẫy</li>
             </ul>
-        </div>
-    </section>
-    <section class="treatment treatment__card">
-        <div class="treatment__namkhoa">
+        </section>
+        <section class="expert">
+            <div class="expert__spacialty">
+                <div class="expert__spacialty-title">
+                    Chuyên khoa :
+                </div>
+                <ul>
+                    <li>- Sinh sản nam</li>
+                    <li>- Bệnh ngoại tiết niệu</li>
+                    <li>- Rối lọa tiết tố nam</li>
+                    <li>- Cấp cưu nam khoa</li>
+                </ul>
+            </div>
+        </section>
+        <section class="treatment treatment__card">
+            <div class="treatment__namkhoa">
 
-            <ul>
-                <li class="treatment__namkhoa-title">ĐIỀU TRỊ CHUYÊN KHOA</li>
-                <li class="treatment__namkhoa-titleN">+ bệnh nam khoa</li>
-                <li><a aria-label="1" href="">1. Bệnh bao quy đầu</a></li>
-                <li><a aria-label="1" href="">2. Rối loạn xuất tinh</a></li>
-                <li><a aria-label="1" href="">3. Bệnh tinh hoàn</a></li>
-                <li><a aria-label="1" href="">4. Bệnh tuyến tiền liệt</a></li>
-                <li><a aria-label="1" href="">5. Bệnh đường tiết niệu</a></li>
-                <li><a aria-label="1" href="">6. Vô sinh hiến muộn</a></li>
-                <li><a aria-label="1" href="">7. Rối loạn chức năng sinh dục</a></li>
-                <li><a aria-label="1" href="">8. Bệnh dương vật</a></li>
+                <ul>
+                    <li class="treatment__namkhoa-title">ĐIỀU TRỊ CHUYÊN KHOA</li>
+                    <li class="treatment__namkhoa-titleN">+ bệnh nam khoa</li>
+                    <li><a aria-label="1" href="">1. Bệnh bao quy đầu</a></li>
+                    <li><a aria-label="1" href="">2. Rối loạn xuất tinh</a></li>
+                    <li><a aria-label="1" href="">3. Bệnh tinh hoàn</a></li>
+                    <li><a aria-label="1" href="">4. Bệnh tuyến tiền liệt</a></li>
+                    <li><a aria-label="1" href="">5. Bệnh đường tiết niệu</a></li>
+                    <li><a aria-label="1" href="">6. Vô sinh hiến muộn</a></li>
+                    <li><a aria-label="1" href="">7. Rối loạn chức năng sinh dục</a></li>
+                    <li><a aria-label="1" href="">8. Bệnh dương vật</a></li>
 
-                <li class="treatment__namkhoa-titleN">+ bệnh xã hội</li>
-                <li><a aria-label="1" href="">1. Sùi màu gà</a></li>
-                <li><a aria-label="1" href="">2. Bệnh lậu</a></li>
-                <li><a aria-label="1" href="">3. Giang mai</a></li>
-                <li><a aria-label="1" href="">4. Mụn sinh dục</a></li>
-                <li><a aria-label="1" href="">5. Rận mu</a></li>
+                    <li class="treatment__namkhoa-titleN">+ bệnh xã hội</li>
+                    <li><a aria-label="1" href="">1. Sùi màu gà</a></li>
+                    <li><a aria-label="1" href="">2. Bệnh lậu</a></li>
+                    <li><a aria-label="1" href="">3. Giang mai</a></li>
+                    <li><a aria-label="1" href="">4. Mụn sinh dục</a></li>
+                    <li><a aria-label="1" href="">5. Rận mu</a></li>
 
-            </ul>
-        </div>
+                </ul>
+            </div>
 
-    </section>
-    <section class="expert">
-        
-        <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
-            <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
-        </a>
-        <div class="expert__certificate">
-            <button>CHỨNG CHỈ</button>
-        </div>
-    </section>
-    
-    <section class="expert">
-        <div class="expert__certificate-img">
-            <img loading="lazy" width="100%" height="auto" src="<?php echo $local ?>/images/banner/chung_chi.webp" alt="...">
-        </div>
-    </section>
-    <section class="section__button">
-        <a aria-label="liên hệ" class="animated-button" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Đặt lịch khám ngay</a>
-    </section>
+        </section>
+        <section class="expert">
 
-    <section class="treatment">
-        <div class="treatment__title">
-            CÁC BỆNH NAM KHOA THƯỜNG GẶP
-        </div>
+            <a aria-label="chat" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en" class="expert__chat">
+                <img loading="lazy" src="<?php echo $local ?>/images/icons/chat_dakhoa.gif" alt="...">
+            </a>
+            <div class="expert__certificate">
+                <button>CHỨNG CHỈ</button>
+            </div>
+        </section>
 
-    </section>
+        <section class="expert">
+            <div class="expert__certificate-img">
+                <img loading="lazy" width="100%" height="auto" src="<?php echo $local ?>/images/banner/chung_chi.webp" alt="...">
+            </div>
+        </section>
+        <section class="section__button">
+            <a aria-label="liên hệ" class="animated-button" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Đặt lịch khám ngay</a>
+        </section>
 
-    <section class="treatment">
-        <?php foreach ($slides as $slide): ?>
-            <div class="list_image_card">
-                <img loading="lazy" height="100%" width="100%" src="<?php echo $local . $slide['image']; ?>" alt="<?php echo $slide['alt']; ?>">
-                <div class="list_image_card-text">
-                    <div>
-                        <strong>Biểu hiện : </strong>
-                        <span><?php echo $slide['symptom']; ?></span>
+        <section class="treatment">
+            <div class="treatment__title">
+                CÁC BỆNH NAM KHOA THƯỜNG GẶP
+            </div>
+
+        </section>
+
+        <section class="treatment">
+            <?php foreach ($slides as $slide): ?>
+                <div class="list_image_card">
+                    <img loading="lazy" height="100%" width="100%" src="<?php echo $local . $slide['image']; ?>" alt="<?php echo $slide['alt']; ?>">
+                    <div class="list_image_card-text">
+                        <div>
+                            <strong>Biểu hiện : </strong>
+                            <span><?php echo $slide['symptom']; ?></span>
+                        </div>
+                        <div>
+                            <strong>Biến chứng: </strong>
+                            <span><?php echo $slide['complication']; ?></span>
+                        </div>
                     </div>
-                    <div>
-                        <strong>Biến chứng: </strong>
-                        <span><?php echo $slide['complication']; ?></span>
+                </div>
+            <?php endforeach; ?>
+        </section>
+        <section class="feedback">
+            <div class="feedback_body">
+                <div class="feedback_body-container">
+                    <img loading="lazy" src="<?php echo $local ?>/images/banner/feedback.webp" alt="...">
+                    <div class="feedback_body-list">
+                        <div class="feedback_body-list-item activeFeedback">
+                            <img loading="lazy" src="<?php echo $local ?>/images/banner/chat.webp" alt="...">
+                        </div>
+                        <div class="feedback_body-list-item ">
+                            <img loading="lazy" src="<?php echo $local ?>/images/banner/chat1.webp" alt="...">
+                        </div>
+                    </div>
+                    <div class="index-feedbacks">
+                        <div class="feedback-item feedback-item-0 activeFeedback"></div>
+                        <div class="feedback-item feedback-item-1"></div>
                     </div>
                 </div>
             </div>
-        <?php endforeach; ?>
-    </section>
-    <section class="feedback">
-        <div class="feedback_body">
-            <div class="feedback_body-container">
-                <img loading="lazy" src="<?php echo $local ?>/images/banner/feedback.webp" alt="...">
-                <div class="feedback_body-list">
-                    <div class="feedback_body-list-item activeFeedback">
-                        <img loading="lazy" src="<?php echo $local ?>/images/banner/chat.webp" alt="...">
-                    </div>
-                    <div class="feedback_body-list-item ">
-                        <img loading="lazy" src="<?php echo $local ?>/images/banner/chat1.webp" alt="...">
-                    </div>
+        </section>
+        <section class="section__button">
+            <a aria-label="liên hệ" class="animated-button" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Liên hệ ngay</a>
+        </section>
+        <section class="service">
+            <div class="service__body">
+                <div class="service__body-item">
+                    <img loading="lazy" src="<?php echo $local ?>/images/icons/icon_bs.webp" alt="...">
                 </div>
-                <div class="index-feedbacks">
-                    <div class="feedback-item feedback-item-0 activeFeedback"></div>
-                    <div class="feedback-item feedback-item-1"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section__button">
-        <a aria-label="liên hệ" class="animated-button" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Liên hệ ngay</a>
-    </section>
-    <section class="service">
-        <div class="service__body">
-            <div class="service__body-item">
-                <img loading="lazy" src="<?php echo $local ?>/images/icons/icon_bs.webp" alt="...">
-            </div>
-            <div class="service__body-item">
-                <div class="service__body-item-card">
-                    <img width="44px" height="44px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_check.webp" alt="...">
-                    <div>
-                        Mức chi phí hợp lý, rõ ràng
+                <div class="service__body-item">
+                    <div class="service__body-item-card">
+                        <img width="44px" height="44px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_check.webp" alt="...">
+                        <div>
+                            Mức chi phí hợp lý, rõ ràng
+                        </div>
                     </div>
-                </div>
-                <div class="service__body-item-card">
-                    <img width="44px" height="44px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_check.webp" alt="...">
-                    <div>
-                        Dịch vụ chuyên nghiệp
+                    <div class="service__body-item-card">
+                        <img width="44px" height="44px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_check.webp" alt="...">
+                        <div>
+                            Dịch vụ chuyên nghiệp
+                        </div>
                     </div>
-                </div>
-                <div class="service__body-item-card">
-                    <img width="44px" height="44px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_check.webp" alt="...">
-                    <div>
-                        Bảo mật thông tin
+                    <div class="service__body-item-card">
+                        <img width="44px" height="44px" loading="lazy" src="<?php echo $local ?>/images/icons/icon_check.webp" alt="...">
+                        <div>
+                            Bảo mật thông tin
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="license">
-        <img loading="lazy" src="<?php echo $local ?>/images/banner/giay_phep.webp" alt="...">
-    </section>
-    <section class="time">
-        <div class="ping-wrapper">
-            <div class="ping-border">
-                <img loading="lazy" src="<?php echo $local ?>/images/banner/time.webp" alt="...">
+        </section>
+        <section class="license">
+            <img loading="lazy" src="<?php echo $local ?>/images/banner/giay_phep.webp" alt="...">
+        </section>
+        <section class="time">
+            <div class="ping-wrapper">
+                <div class="ping-border">
+                    <img loading="lazy" src="<?php echo $local ?>/images/banner/time.webp" alt="...">
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="contact">
-        <div class="contact__title">
-            LIÊN HỆ TƯ VẤN VÀ ĐẶT LỊCH KHÁM
-        </div>
-        <div class="contact__body">
-            <div>
-                <a aria-label="phone" href="tel:+0968063109">
-                    <strong>HOTLINE: </strong> <span>0968 063 109</span>
-                </a>
+        </section>
+        <section class="contact">
+            <div class="contact__title">
+                LIÊN HỆ TƯ VẤN VÀ ĐẶT LỊCH KHÁM
             </div>
-            <div>
-                <a aria-label="phone" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
-                    <strong>ZALO: </strong> <span>0968 063 109</span>
-                </a>
+            <div class="contact__body">
+                <div>
+                    <a aria-label="phone" href="tel:+0968063109">
+                        <strong>HOTLINE: </strong> <span>0968 063 109</span>
+                    </a>
+                </div>
+                <div>
+                    <a aria-label="phone" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
+                        <strong>ZALO: </strong> <span>0968 063 109</span>
+                    </a>
+                </div>
+                <div>
+                    <a aria-label="phone" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
+                        <strong>CHAT TRỰC TIẾP </strong>
+                    </a>
+                </div>
+                <div>
+                    <strong>ĐỊA CHỈ: </strong> <span>360 An Dương Vương, P.4, Q.5, TP.HCM</span>
+                </div>
             </div>
-            <div>
-                <a aria-label="phone" href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en">
-                    <strong>CHAT TRỰC TIẾP </strong>
-                </a>
-            </div>
-            <div>
-                <strong>ĐỊA CHỈ: </strong> <span>360 An Dương Vương, P.4, Q.5, TP.HCM</span>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <?php include_once "inc/footer.php" ?>
+        <?php include_once "inc/footer.php" ?>
